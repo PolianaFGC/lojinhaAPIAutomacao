@@ -17,7 +17,7 @@ public class ProdutoTest {
      //Configurando os dados da API rest da lojinha
         baseURI="http://165.227.93.41";
        //porta onde a aplicação esta rodando, caso tenha porta:  port=8080;
-        basePath="/lojinha-bugada"; //caminho inicial da minha aplicação
+        basePath="/lojinha"; //caminho inicial da minha aplicação
 
         //Obter token do usuario admin
         String token = given() //variável token
